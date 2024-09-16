@@ -138,10 +138,12 @@ def main():
                     elif user_choice == '3':
                         modify_blogpost(username, blogs)
                     elif user_choice == '4':
+                        print("Logging out...!")
                         break
                     else:
                         print("Invalid choice. Please try again.")
         elif choice == '3':
+            print("Exiting...!")
             break
         else:
             print("Invalid choice. Please try again.")
